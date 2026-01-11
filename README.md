@@ -11,6 +11,7 @@ This architecture used the following philosophy
   4. Code generation Models (Mixture of Experts)
 
 **High level Data flow:**
+ 
   UserPrompt["Natural Language Prompt / Source Code"] --> LNN["Edge LNN\n(Input Stabilization)"]
   
   LNN --> MIRAS["MIRAS Controller\n(Task + Memory OS)"]
